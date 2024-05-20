@@ -29,14 +29,22 @@ Step 5.7 : It's Working.If not working <a href= "https://cloud.google.com/storag
 
 <h1>For Key</h1>
 Step 1:Click on the 3 lines(ham-burger) on left side --> I AM & Admin --> Service Accounts
+
 ![image](https://github.com/suragsp/Microservice-GCP/assets/104720115/1a12ce80-1b05-4e3e-8a7d-5427b69e98fe)
+
 Step 2: Click on "Create Service Account".
 ![image](https://github.com/suragsp/Microservice-GCP/assets/104720115/987b4941-8d8e-4403-b5c7-fca5a917036a)
+
 Step 3 : Service Account Name. --> Click on "Create and Continue".
+
 ![image](https://github.com/suragsp/Microservice-GCP/assets/104720115/1d698b31-e799-4758-9fab-4a99ab080e75)
+
 Step 4: 
+
 ![image](https://github.com/suragsp/Microservice-GCP/assets/104720115/c056aa9c-179e-47b4-a733-71df54a05f49)
+
 ![image](https://github.com/suragsp/Microservice-GCP/assets/104720115/0afb5ca0-144e-4e46-b933-4198833e6434)
+
 
 Note - As we are just making a demo, we are making the uploader as a owner else we need to give only the rights needed to them.(Based on their role) <a href="https://cloud.google.com/iam/docs/overview">IAM overview</a>
 Optional Step - Grant users access to this service account.
