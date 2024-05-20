@@ -26,13 +26,32 @@ Step 5.6 : Check your Bucket(Upload a file.
 ![image](https://github.com/suragsp/Microservice-GCP/assets/104720115/7ce9397a-ae20-42a9-bfa1-da21d86bd9ed)
 Step 5.7 : It's Working.If not working <a href= "https://cloud.google.com/storage/docs/creating-buckets">Google guide here</a>
 ![image](https://github.com/suragsp/Microservice-GCP/assets/104720115/50b0a5d8-abee-44ea-baa2-bf664298678b)
-Step 6.1 : Now we will select IAM Roles.
-![image](https://github.com/suragsp/Microservice-GCP/assets/104720115/60def6e6-98b9-4f5b-a5ee-8e7492bb1484)
-Step 7 : Click on "Grant Access".
-![image](https://github.com/suragsp/Microservice-GCP/assets/104720115/cb49d4d7-4f0d-475c-8b43-3b5543a2fbb6)
-Step 8 : New principal as - demo-service-account@cloudstorageuploader.iam.gserviceaccount.com
-Role as Owner.
+
+<h1>For Key</h1>
+Step 1:Click on the 3 lines(ham-burger) on left side --> I AM & Admin --> Service Accounts
+![image](https://github.com/suragsp/Microservice-GCP/assets/104720115/1a12ce80-1b05-4e3e-8a7d-5427b69e98fe)
+Step 2: Click on "Create Service Account".
+![image](https://github.com/suragsp/Microservice-GCP/assets/104720115/987b4941-8d8e-4403-b5c7-fca5a917036a)
+Step 3 : Service Account Name. --> Click on "Create and Continue".
+![image](https://github.com/suragsp/Microservice-GCP/assets/104720115/1d698b31-e799-4758-9fab-4a99ab080e75)
+Step 4: 
+![image](https://github.com/suragsp/Microservice-GCP/assets/104720115/c056aa9c-179e-47b4-a733-71df54a05f49)
+![image](https://github.com/suragsp/Microservice-GCP/assets/104720115/0afb5ca0-144e-4e46-b933-4198833e6434)
+
 Note - As we are just making a demo, we are making the uploader as a owner else we need to give only the rights needed to them.(Based on their role) <a href="https://cloud.google.com/iam/docs/overview">IAM overview</a>
+Optional Step - Grant users access to this service account.
+If you want to add someone's Email ID you can do here else leave it blank.
+![image](https://github.com/suragsp/Microservice-GCP/assets/104720115/fce28bac-abba-4d75-89af-38370da517eb)
+Click Done.
+![image](https://github.com/suragsp/Microservice-GCP/assets/104720115/c18a32f9-0ff8-4d6a-ac9c-10dc7f3adb8b)
+Now Get the keys.
+![image](https://github.com/suragsp/Microservice-GCP/assets/104720115/cd2a7afa-b594-4f52-8e39-971424a8cf3b)
+Click on Add key --> Create new key.
+![image](https://github.com/suragsp/Microservice-GCP/assets/104720115/1f7ba849-a4ce-4b86-bf0e-c34489333e4c)
+Select .JSON --> Cleck "Create". (The key will be Downloaded auto matically-Keep it safe as it contains important data.)
+![image](https://github.com/suragsp/Microservice-GCP/assets/104720115/5ec59b69-b440-4ce9-ae32-aec820140457)
+
+
 
 
 
