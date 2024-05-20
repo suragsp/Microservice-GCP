@@ -127,10 +127,14 @@ if __name__ == '__main__':
 <h1>Errors that might occur while you run</h1>
 Error 1:Python not Found, 
 Soltion Install Python and while installing python Include it in the path.
+
 ![image](https://github.com/suragsp/Microservice-GCP/assets/104720115/ddd9d80b-b371-4d65-a4ea-189ba156d49b)
 
+
 <b>I will use Power shell to run "app.py".</b>
+
 https://github.com/suragsp/Microservice-GCP/assets/104720115/c8dfd8ce-8e0e-47b6-b838-ca671f3c3e2b
+
 
 
 
